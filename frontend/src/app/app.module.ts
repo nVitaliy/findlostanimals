@@ -1,8 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import {BrowserModule} from '@angular/platform-browser';
+import {NgModule} from '@angular/core';
+import {
+  MatToolbarModule,
+  MatIconModule,
+  MatCardModule
+} from '@angular/material';
 
-
-import { AppComponent } from './app.component';
+import {AppComponent} from './app.component';
 
 
 @NgModule({
@@ -10,9 +14,12 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}
