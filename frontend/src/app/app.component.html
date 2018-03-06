@@ -1,4 +1,61 @@
 <mat-toolbar color="primary">
-  <span><mat-icon>mood</mat-icon></span>
-  <span>Lost Animals</span>
+  <a class="docs-button mat-button" routerlink="/" tabindex="0" aria-disabled="false" href="/">
+    <span class="mat-button-wrapper">
+      <img class="docs-angular-logo" src="../logo.png">
+    </span>
+  </a>
+  <div>Всеукраинская база потеряных животных</div>
 </mat-toolbar>
+
+<mat-card>
+  <mat-card-header>
+    <span class="example-spacer">
+    </span>
+    <button mat-raised-button color="primary" (click)="openDialog()">Подать объявление</button>
+  </mat-card-header>
+  <mat-card-content>
+    <h2 class="example-h2"></h2>
+    <mat-tab-group class="demo-tab-group">
+      <mat-tab label="Карта потеряных/найденный животных">
+        <div class="demo-tab-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue.
+          Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus.
+          In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec,
+          feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor,
+          orci enim rutrum enim, vel tempor sapien arcu a tellus.
+        </div>
+      </mat-tab>
+      <mat-tab label="Каталог потерянных животных">
+        <div class="demo-tab-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue.
+          Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus.
+          In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec,
+          feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor,
+          orci enim rutrum enim, vel tempor sapien arcu a tellus.
+        </div>
+      </mat-tab>
+      <mat-tab label="Каталог найденных животных">
+        <div class="demo-tab-content">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue.
+          Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus.
+          In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec,
+          feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor,
+          orci enim rutrum enim, vel tempor sapien arcu a tellus.
+          <br/>
+          <br/>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla venenatis ante augue.
+          Phasellus volutpat neque ac dui mattis vulputate. Etiam consequat aliquam cursus.
+          In sodales pretium ultrices. Maecenas lectus est, sollicitudin consectetur felis nec,
+          feugiat ultricies mi. Aliquam erat volutpat. Nam placerat, tortor in ultrices porttitor,
+          orci enim rutrum enim, vel tempor sapien arcu a tellus.
+        </div>
+      </mat-tab>
+      <mat-tab label="Полезная информация">
+        No content
+      </mat-tab>
+    </mat-tab-group>
+  </mat-card-content>
+</mat-card>
+
+
+

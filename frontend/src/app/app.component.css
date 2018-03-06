@@ -1,0 +1,16 @@
+mat-card {
+  max-width: 80%;
+  margin: auto;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+.demo-tab-group {
+  border: 1px solid #e8e8e8;
+}
+
+.demo-tab-content {
+  padding: 16px;
+}
