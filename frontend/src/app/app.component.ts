@@ -26,8 +26,8 @@ export class AppComponent {
 }
 
 @Component({
-  selector: 'dialog-overview-example-dialog',
-  templateUrl: 'dialog-overview-example-dialog.html',
+  selector: 'dialog-found-or-lost',
+  templateUrl: 'dialog-found-or-lost.html',
 })
 export class DialogOverviewExampleDialog {
 
